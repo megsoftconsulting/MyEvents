@@ -1,0 +1,4 @@
+MyEvents
+========
+
+Event Management Suite 
