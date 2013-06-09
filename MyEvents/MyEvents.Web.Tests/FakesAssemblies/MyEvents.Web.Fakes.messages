@@ -1,0 +1,17 @@
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate stub for <>f__AnonymousType0`1: type is sealed.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate stub for <>f__AnonymousType1`1: type is sealed.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate stub for <>f__AnonymousType2`2: type is sealed.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate stub for <>f__AnonymousType3`1: type is sealed.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate stub for <>f__AnonymousType4`3: type is sealed.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate shim for MyEvents.Web.Controllers.EventController+<Schedule>o__SiteContainer0: type is not supported because of internal limitations.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate shim for MyEvents.Web.DisplayModes.MobileDisplayMode+<>c__DisplayClass4: type is not supported because of internal limitations.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate shim for MyEvents.Web.Services.IAuthenticationService: type is an interface.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate shim for MyEvents.Web.Services.IAuthorizationService: type is an interface.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate shim for MyEvents.Web.Services.IThirdPartyOauthService: type is an interface.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate shim for MyEvents.Web.Services.IOfflineOauthService: type is an interface.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate shim for MyEvents.Web.Validators.DateGreaterThanAttribute+<GetClientValidationRules>d__0: type is not supported because of internal limitations.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate shim for <>f__AnonymousType0`1: type is not supported because of internal limitations.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate shim for <>f__AnonymousType1`1: type is not supported because of internal limitations.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate shim for <>f__AnonymousType2`2: type is not supported because of internal limitations.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate shim for <>f__AnonymousType3`1: type is not supported because of internal limitations.
+C:\Projects\MyEvents\MyEvents\MyEvents.Web.Tests\Fakes\MyEvents.Web.fakes : warning : Cannot generate shim for <>f__AnonymousType4`3: type is not supported because of internal limitations.

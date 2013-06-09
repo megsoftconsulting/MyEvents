@@ -1,0 +1,2090 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyEvents.Data.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:MyEvents.Data.Fakes.ShimCommentRepository">
+            <summary>Shim type of MyEvents.Data.CommentRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimCommentRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimCommentRepository.#ctor(MyEvents.Data.CommentRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimCommentRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimCommentRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimCommentRepository.Bind(MyEvents.Data.ICommentRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimCommentRepository.AddComment">
+            <summary>Sets the shim of CommentRepository.Add(Comment comment)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimCommentRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimCommentRepository.Constructor">
+            <summary>Sets the shim of CommentRepository.CommentRepository()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimCommentRepository.DeleteInt32">
+            <summary>Sets the shim of CommentRepository.Delete(Int32 commentId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimCommentRepository.GetAllInt32">
+            <summary>Sets the shim of CommentRepository.GetAll(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimCommentRepository.GetInt32">
+            <summary>Sets the shim of CommentRepository.Get(Int32 commentId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimCommentRepository.GetOrganizerIdInt32">
+            <summary>Sets the shim of CommentRepository.GetOrganizerId(Int32 commentId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimCommentRepository._GetAllb__4Comment">
+            <summary>Sets the shim of CommentRepository.&lt;GetAll&gt;b__4(Comment c)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.ShimCommentRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimCommentRepository.AllInstances.AddComment">
+            <summary>Sets the shim of CommentRepository.Add(Comment comment)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimCommentRepository.AllInstances.DeleteInt32">
+            <summary>Sets the shim of CommentRepository.Delete(Int32 commentId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimCommentRepository.AllInstances.GetAllInt32">
+            <summary>Sets the shim of CommentRepository.GetAll(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimCommentRepository.AllInstances.GetInt32">
+            <summary>Sets the shim of CommentRepository.Get(Int32 commentId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimCommentRepository.AllInstances.GetOrganizerIdInt32">
+            <summary>Sets the shim of CommentRepository.GetOrganizerId(Int32 commentId)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.ShimEventDefinitionRepository">
+            <summary>Shim type of MyEvents.Data.EventDefinitionRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimEventDefinitionRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimEventDefinitionRepository.#ctor(MyEvents.Data.EventDefinitionRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimEventDefinitionRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimEventDefinitionRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimEventDefinitionRepository.Bind(MyEvents.Data.IEventDefinitionRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AddEventDefinition">
+            <summary>Sets the shim of EventDefinitionRepository.Add(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AddRoomPointsIEnumerableOfRoomPoint">
+            <summary>Sets the shim of EventDefinitionRepository.AddRoomPoints(IEnumerable`1&lt;RoomPoint&gt; roomPoints)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.CheckAndFixTwitterAccountEventDefinition">
+            <summary>Sets the shim of EventDefinitionRepository.CheckAndFixTwitterAccount(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.CleanRoomsInt32Int32">
+            <summary>Sets the shim of EventDefinitionRepository.CleanRooms(Int32 eventDefinitionId, Int32 roomNumber)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.Constructor">
+            <summary>Sets the shim of EventDefinitionRepository.EventDefinitionRepository()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.DeleteInt32">
+            <summary>Sets the shim of EventDefinitionRepository.Delete(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.DeleteRoomPointsInt32Int32">
+            <summary>Sets the shim of EventDefinitionRepository.DeleteRoomPoints(Int32 eventDefinitionId, Int32 roomNumber)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetAllInt32Int32">
+            <summary>Sets the shim of EventDefinitionRepository.GetAll(Int32 pageSize, Int32 pageIndex)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetAllRoomPointsInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetAllRoomPoints(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetAllWithUserInfoInt32Int32Int32">
+            <summary>Sets the shim of EventDefinitionRepository.GetAllWithUserInfo(Int32 registeredUserId, Int32 pageSize, Int32 pageIndex)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetByIdInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetById(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetByIdWithUserInfoInt32Int32">
+            <summary>Sets the shim of EventDefinitionRepository.GetByIdWithUserInfo(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetByOrganizerIdInt32StringInt32Int32Boolean">
+            <summary>Sets the shim of EventDefinitionRepository.GetByOrganizerId(Int32 organizerId, String filter, Int32 pageSize, Int32 pageIndex, Boolean completeInfo)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetCount">
+            <summary>Sets the shim of EventDefinitionRepository.GetCount()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetCountByOrganizerIdInt32String">
+            <summary>Sets the shim of EventDefinitionRepository.GetCountByOrganizerId(Int32 organizerId, String filter)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetCurrent">
+            <summary>Sets the shim of EventDefinitionRepository.GetCurrent()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetEventLogoInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetEventLogo(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetLastInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetLast(Int32 number)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetLastWithUserInfoInt32Int32">
+            <summary>Sets the shim of EventDefinitionRepository.GetLastWithUserInfo(Int32 registeredUserId, Int32 number)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetRoomImageInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetRoomImage(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetRoomPointsInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetRoomPoints(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetTopSpeakersInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetTopSpeakers(Int32 organizerId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.GetTopTagsInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetTopTags(Int32 organizerId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.UpdateEventDefinition">
+            <summary>Sets the shim of EventDefinitionRepository.Update(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.UpdateRoomImageEventDefinition">
+            <summary>Sets the shim of EventDefinitionRepository.UpdateRoomImage(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository._GetAllWithUserInfob__4EventDefinition">
+            <summary>Sets the shim of EventDefinitionRepository.&lt;GetAllWithUserInfo&gt;b__4(EventDefinition q)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository._GetByIdb__21EventDefinition">
+            <summary>Sets the shim of EventDefinitionRepository.&lt;GetById&gt;b__21(EventDefinition e)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository._GetCurrentb__13EventDefinition">
+            <summary>Sets the shim of EventDefinitionRepository.&lt;GetCurrent&gt;b__13(EventDefinition e)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository._GetTopTagsb__33EventDefinition">
+            <summary>Sets the shim of EventDefinitionRepository.&lt;GetTopTags&gt;b__33(EventDefinition e)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository._GetTopTagsb__34String">
+            <summary>Sets the shim of EventDefinitionRepository.&lt;GetTopTags&gt;b__34(String e)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository._GetTopTagsb__35IGroupingOfStringString">
+            <summary>Sets the shim of EventDefinitionRepository.&lt;GetTopTags&gt;b__35(IGrouping`2&lt;String,String&gt; g)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository._GetTopTagsb__36Tag">
+            <summary>Sets the shim of EventDefinitionRepository.&lt;GetTopTags&gt;b__36(Tag e)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.AddEventDefinition">
+            <summary>Sets the shim of EventDefinitionRepository.Add(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.AddRoomPointsIEnumerableOfRoomPoint">
+            <summary>Sets the shim of EventDefinitionRepository.AddRoomPoints(IEnumerable`1&lt;RoomPoint&gt; roomPoints)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.CheckAndFixTwitterAccountEventDefinition">
+            <summary>Sets the shim of EventDefinitionRepository.CheckAndFixTwitterAccount(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.CleanRoomsInt32Int32">
+            <summary>Sets the shim of EventDefinitionRepository.CleanRooms(Int32 eventDefinitionId, Int32 roomNumber)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.DeleteInt32">
+            <summary>Sets the shim of EventDefinitionRepository.Delete(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.DeleteRoomPointsInt32Int32">
+            <summary>Sets the shim of EventDefinitionRepository.DeleteRoomPoints(Int32 eventDefinitionId, Int32 roomNumber)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetAllInt32Int32">
+            <summary>Sets the shim of EventDefinitionRepository.GetAll(Int32 pageSize, Int32 pageIndex)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetAllRoomPointsInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetAllRoomPoints(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetAllWithUserInfoInt32Int32Int32">
+            <summary>Sets the shim of EventDefinitionRepository.GetAllWithUserInfo(Int32 registeredUserId, Int32 pageSize, Int32 pageIndex)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetByIdInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetById(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetByIdWithUserInfoInt32Int32">
+            <summary>Sets the shim of EventDefinitionRepository.GetByIdWithUserInfo(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetByOrganizerIdInt32StringInt32Int32Boolean">
+            <summary>Sets the shim of EventDefinitionRepository.GetByOrganizerId(Int32 organizerId, String filter, Int32 pageSize, Int32 pageIndex, Boolean completeInfo)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetCount">
+            <summary>Sets the shim of EventDefinitionRepository.GetCount()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetCountByOrganizerIdInt32String">
+            <summary>Sets the shim of EventDefinitionRepository.GetCountByOrganizerId(Int32 organizerId, String filter)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetCurrent">
+            <summary>Sets the shim of EventDefinitionRepository.GetCurrent()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetEventLogoInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetEventLogo(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetLastInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetLast(Int32 number)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetLastWithUserInfoInt32Int32">
+            <summary>Sets the shim of EventDefinitionRepository.GetLastWithUserInfo(Int32 registeredUserId, Int32 number)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetRoomImageInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetRoomImage(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetRoomPointsInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetRoomPoints(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetTopSpeakersInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetTopSpeakers(Int32 organizerId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.GetTopTagsInt32">
+            <summary>Sets the shim of EventDefinitionRepository.GetTopTags(Int32 organizerId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.UpdateEventDefinition">
+            <summary>Sets the shim of EventDefinitionRepository.Update(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimEventDefinitionRepository.AllInstances.UpdateRoomImageEventDefinition">
+            <summary>Sets the shim of EventDefinitionRepository.UpdateRoomImage(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.ShimMaterialRepository">
+            <summary>Shim type of MyEvents.Data.MaterialRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimMaterialRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimMaterialRepository.#ctor(MyEvents.Data.MaterialRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimMaterialRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimMaterialRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimMaterialRepository.Bind(MyEvents.Data.IMaterialRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMaterialRepository.AddMaterial">
+            <summary>Sets the shim of MaterialRepository.Add(Material material)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMaterialRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMaterialRepository.Constructor">
+            <summary>Sets the shim of MaterialRepository.MaterialRepository()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMaterialRepository.DeleteInt32">
+            <summary>Sets the shim of MaterialRepository.Delete(Int32 materialId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMaterialRepository.GetAllInt32">
+            <summary>Sets the shim of MaterialRepository.GetAll(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMaterialRepository.GetInt32">
+            <summary>Sets the shim of MaterialRepository.Get(Int32 materialId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMaterialRepository.GetOrganizerIdInt32">
+            <summary>Sets the shim of MaterialRepository.GetOrganizerId(Int32 materialId)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.ShimMaterialRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMaterialRepository.AllInstances.AddMaterial">
+            <summary>Sets the shim of MaterialRepository.Add(Material material)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMaterialRepository.AllInstances.DeleteInt32">
+            <summary>Sets the shim of MaterialRepository.Delete(Int32 materialId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMaterialRepository.AllInstances.GetAllInt32">
+            <summary>Sets the shim of MaterialRepository.GetAll(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMaterialRepository.AllInstances.GetInt32">
+            <summary>Sets the shim of MaterialRepository.Get(Int32 materialId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMaterialRepository.AllInstances.GetOrganizerIdInt32">
+            <summary>Sets the shim of MaterialRepository.GetOrganizerId(Int32 materialId)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.ShimMyEventsContext">
+            <summary>Shim type of MyEvents.Data.MyEventsContext</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimMyEventsContext.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimMyEventsContext.#ctor(MyEvents.Data.MyEventsContext)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimMyEventsContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimMyEventsContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimMyEventsContext.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimMyEventsContext.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.CommentsGet">
+            <summary>Sets the shim of MyEventsContext.get_Comments()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.CommentsSetDbSetOfComment">
+            <summary>Sets the shim of MyEventsContext.set_Comments(DbSet`1&lt;Comment&gt; value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.Constructor">
+            <summary>Sets the shim of MyEventsContext.MyEventsContext()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.EventDefinitionsGet">
+            <summary>Sets the shim of MyEventsContext.get_EventDefinitions()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.EventDefinitionsSetDbSetOfEventDefinition">
+            <summary>Sets the shim of MyEventsContext.set_EventDefinitions(DbSet`1&lt;EventDefinition&gt; value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.MaterialsGet">
+            <summary>Sets the shim of MyEventsContext.get_Materials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.MaterialsSetDbSetOfMaterial">
+            <summary>Sets the shim of MyEventsContext.set_Materials(DbSet`1&lt;Material&gt; value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of MyEventsContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.RegisteredUsersGet">
+            <summary>Sets the shim of MyEventsContext.get_RegisteredUsers()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.RegisteredUsersSetDbSetOfRegisteredUser">
+            <summary>Sets the shim of MyEventsContext.set_RegisteredUsers(DbSet`1&lt;RegisteredUser&gt; value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.RoomPointsGet">
+            <summary>Sets the shim of MyEventsContext.get_RoomPoints()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.RoomPointsSetDbSetOfRoomPoint">
+            <summary>Sets the shim of MyEventsContext.set_RoomPoints(DbSet`1&lt;RoomPoint&gt; value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.SessionRegisteredUsersGet">
+            <summary>Sets the shim of MyEventsContext.get_SessionRegisteredUsers()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.SessionRegisteredUsersSetDbSetOfSessionRegisteredUser">
+            <summary>Sets the shim of MyEventsContext.set_SessionRegisteredUsers(DbSet`1&lt;SessionRegisteredUser&gt; value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.SessionsGet">
+            <summary>Sets the shim of MyEventsContext.get_Sessions()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.SessionsSetDbSetOfSession">
+            <summary>Sets the shim of MyEventsContext.set_Sessions(DbSet`1&lt;Session&gt; value)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.CommentsGet">
+            <summary>Sets the shim of MyEventsContext.get_Comments()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.CommentsSetDbSetOfComment">
+            <summary>Sets the shim of MyEventsContext.set_Comments(DbSet`1&lt;Comment&gt; value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.EventDefinitionsGet">
+            <summary>Sets the shim of MyEventsContext.get_EventDefinitions()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.EventDefinitionsSetDbSetOfEventDefinition">
+            <summary>Sets the shim of MyEventsContext.set_EventDefinitions(DbSet`1&lt;EventDefinition&gt; value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.MaterialsGet">
+            <summary>Sets the shim of MyEventsContext.get_Materials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.MaterialsSetDbSetOfMaterial">
+            <summary>Sets the shim of MyEventsContext.set_Materials(DbSet`1&lt;Material&gt; value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of MyEventsContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.RegisteredUsersGet">
+            <summary>Sets the shim of MyEventsContext.get_RegisteredUsers()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.RegisteredUsersSetDbSetOfRegisteredUser">
+            <summary>Sets the shim of MyEventsContext.set_RegisteredUsers(DbSet`1&lt;RegisteredUser&gt; value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.RoomPointsGet">
+            <summary>Sets the shim of MyEventsContext.get_RoomPoints()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.RoomPointsSetDbSetOfRoomPoint">
+            <summary>Sets the shim of MyEventsContext.set_RoomPoints(DbSet`1&lt;RoomPoint&gt; value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.SessionRegisteredUsersGet">
+            <summary>Sets the shim of MyEventsContext.get_SessionRegisteredUsers()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.SessionRegisteredUsersSetDbSetOfSessionRegisteredUser">
+            <summary>Sets the shim of MyEventsContext.set_SessionRegisteredUsers(DbSet`1&lt;SessionRegisteredUser&gt; value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.SessionsGet">
+            <summary>Sets the shim of MyEventsContext.get_Sessions()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimMyEventsContext.AllInstances.SessionsSetDbSetOfSession">
+            <summary>Sets the shim of MyEventsContext.set_Sessions(DbSet`1&lt;Session&gt; value)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.ShimRegisteredUserRepository">
+            <summary>Shim type of MyEvents.Data.RegisteredUserRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimRegisteredUserRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimRegisteredUserRepository.#ctor(MyEvents.Data.RegisteredUserRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimRegisteredUserRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimRegisteredUserRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimRegisteredUserRepository.Bind(MyEvents.Data.IRegisteredUserRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AddRegisteredUser">
+            <summary>Sets the shim of RegisteredUserRepository.Add(RegisteredUser registeredUser)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AddRegisteredUserScoreInt32Int32Double">
+            <summary>Sets the shim of RegisteredUserRepository.AddRegisteredUserScore(Int32 registeredUserId, Int32 sessionId, Double score)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AddRegisteredUserToEventInt32Int32">
+            <summary>Sets the shim of RegisteredUserRepository.AddRegisteredUserToEvent(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AddRegisteredUserToSessionInt32Int32">
+            <summary>Sets the shim of RegisteredUserRepository.AddRegisteredUserToSession(Int32 registeredUserId, Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.Constructor">
+            <summary>Sets the shim of RegisteredUserRepository.RegisteredUserRepository()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.DeleteRegisteredUserFromEventInt32Int32">
+            <summary>Sets the shim of RegisteredUserRepository.DeleteRegisteredUserFromEvent(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.DeleteRegisteredUserFromSessionInt32Int32">
+            <summary>Sets the shim of RegisteredUserRepository.DeleteRegisteredUserFromSession(Int32 registeredUserId, Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.GetAllByEventIdInt32">
+            <summary>Sets the shim of RegisteredUserRepository.GetAllByEventId(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.GetAllBySessionIdInt32">
+            <summary>Sets the shim of RegisteredUserRepository.GetAllBySessionId(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.GetByIdInt32">
+            <summary>Sets the shim of RegisteredUserRepository.GetById(Int32 registeredUserId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.GetEventDefinitionsInt32">
+            <summary>Sets the shim of RegisteredUserRepository.GetEventDefinitions(Int32 registeredUserId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.GetIfUserIsRegisteredInt32Int32">
+            <summary>Sets the shim of RegisteredUserRepository.GetIfUserIsRegistered(Int32 eventDefinitionId, Int32 registeredUserId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.GetSessionsInt32Int32">
+            <summary>Sets the shim of RegisteredUserRepository.GetSessions(Int32 eventDefinitionId, Int32 registeredUserId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.GetString">
+            <summary>Sets the shim of RegisteredUserRepository.Get(String facebookId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository._GetIfUserIsRegisteredb__6EventDefinition">
+            <summary>Sets the shim of RegisteredUserRepository.&lt;GetIfUserIsRegistered&gt;b__6(EventDefinition e)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances.AddRegisteredUser">
+            <summary>Sets the shim of RegisteredUserRepository.Add(RegisteredUser registeredUser)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances.AddRegisteredUserScoreInt32Int32Double">
+            <summary>Sets the shim of RegisteredUserRepository.AddRegisteredUserScore(Int32 registeredUserId, Int32 sessionId, Double score)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances.AddRegisteredUserToEventInt32Int32">
+            <summary>Sets the shim of RegisteredUserRepository.AddRegisteredUserToEvent(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances.AddRegisteredUserToSessionInt32Int32">
+            <summary>Sets the shim of RegisteredUserRepository.AddRegisteredUserToSession(Int32 registeredUserId, Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances.DeleteRegisteredUserFromEventInt32Int32">
+            <summary>Sets the shim of RegisteredUserRepository.DeleteRegisteredUserFromEvent(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances.DeleteRegisteredUserFromSessionInt32Int32">
+            <summary>Sets the shim of RegisteredUserRepository.DeleteRegisteredUserFromSession(Int32 registeredUserId, Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances.GetAllByEventIdInt32">
+            <summary>Sets the shim of RegisteredUserRepository.GetAllByEventId(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances.GetAllBySessionIdInt32">
+            <summary>Sets the shim of RegisteredUserRepository.GetAllBySessionId(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances.GetByIdInt32">
+            <summary>Sets the shim of RegisteredUserRepository.GetById(Int32 registeredUserId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances.GetEventDefinitionsInt32">
+            <summary>Sets the shim of RegisteredUserRepository.GetEventDefinitions(Int32 registeredUserId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances.GetIfUserIsRegisteredInt32Int32">
+            <summary>Sets the shim of RegisteredUserRepository.GetIfUserIsRegistered(Int32 eventDefinitionId, Int32 registeredUserId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances.GetSessionsInt32Int32">
+            <summary>Sets the shim of RegisteredUserRepository.GetSessions(Int32 eventDefinitionId, Int32 registeredUserId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimRegisteredUserRepository.AllInstances.GetString">
+            <summary>Sets the shim of RegisteredUserRepository.Get(String facebookId)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.ShimSessionRepository">
+            <summary>Shim type of MyEvents.Data.SessionRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimSessionRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimSessionRepository.#ctor(MyEvents.Data.SessionRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimSessionRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimSessionRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.ShimSessionRepository.Bind(MyEvents.Data.ISessionRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.AddSession">
+            <summary>Sets the shim of SessionRepository.Add(Session session)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.CheckAndFixTwitterAccountSession">
+            <summary>Sets the shim of SessionRepository.CheckAndFixTwitterAccount(Session session)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.Constructor">
+            <summary>Sets the shim of SessionRepository.SessionRepository()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.DeleteInt32">
+            <summary>Sets the shim of SessionRepository.Delete(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.GetAllInt32">
+            <summary>Sets the shim of SessionRepository.GetAll(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.GetAllWithUserInfoInt32Int32">
+            <summary>Sets the shim of SessionRepository.GetAllWithUserInfo(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.GetInt32">
+            <summary>Sets the shim of SessionRepository.Get(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.GetOrganizerIdInt32">
+            <summary>Sets the shim of SessionRepository.GetOrganizerId(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.GetWithUserInfoInt32Int32">
+            <summary>Sets the shim of SessionRepository.GetWithUserInfo(Int32 registeredUserId, Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.UpdateSession">
+            <summary>Sets the shim of SessionRepository.Update(Session session)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.ShimSessionRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.AllInstances.AddSession">
+            <summary>Sets the shim of SessionRepository.Add(Session session)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.AllInstances.CheckAndFixTwitterAccountSession">
+            <summary>Sets the shim of SessionRepository.CheckAndFixTwitterAccount(Session session)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.AllInstances.DeleteInt32">
+            <summary>Sets the shim of SessionRepository.Delete(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.AllInstances.GetAllInt32">
+            <summary>Sets the shim of SessionRepository.GetAll(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.AllInstances.GetAllWithUserInfoInt32Int32">
+            <summary>Sets the shim of SessionRepository.GetAllWithUserInfo(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.AllInstances.GetInt32">
+            <summary>Sets the shim of SessionRepository.Get(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.AllInstances.GetOrganizerIdInt32">
+            <summary>Sets the shim of SessionRepository.GetOrganizerId(Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.AllInstances.GetWithUserInfoInt32Int32">
+            <summary>Sets the shim of SessionRepository.GetWithUserInfo(Int32 registeredUserId, Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.ShimSessionRepository.AllInstances.UpdateSession">
+            <summary>Sets the shim of SessionRepository.Update(Session session)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.StubCommentRepository">
+            <summary>Stub type of MyEvents.Data.CommentRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubCommentRepository.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubCommentRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubCommentRepository</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubCommentRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubCommentRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubCommentRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.StubEventDefinitionRepository">
+            <summary>Stub type of MyEvents.Data.EventDefinitionRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubEventDefinitionRepository.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubEventDefinitionRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubEventDefinitionRepository</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubEventDefinitionRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubEventDefinitionRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubEventDefinitionRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.StubICommentRepository">
+            <summary>Stub type of MyEvents.Data.ICommentRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubICommentRepository.#ctor">
+            <summary>Initializes a new instance of type StubICommentRepository</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubICommentRepository.AddComment">
+            <summary>Sets the stub of ICommentRepository.Add(Comment comment)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubICommentRepository.DeleteInt32">
+            <summary>Sets the stub of ICommentRepository.Delete(Int32 commentId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubICommentRepository.GetAllInt32">
+            <summary>Sets the stub of ICommentRepository.GetAll(Int32 sessionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubICommentRepository.GetInt32">
+            <summary>Sets the stub of ICommentRepository.Get(Int32 commentId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubICommentRepository.GetOrganizerIdInt32">
+            <summary>Sets the stub of ICommentRepository.GetOrganizerId(Int32 commentId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubICommentRepository.med::MyEvents#Data#ICommentRepository#Add(MyEvents.Model.Comment)">
+            <summary>Sets the stub of ICommentRepository.Add(Comment comment)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubICommentRepository.med::MyEvents#Data#ICommentRepository#Delete(System.Int32)">
+            <summary>Sets the stub of ICommentRepository.Delete(Int32 commentId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubICommentRepository.med::MyEvents#Data#ICommentRepository#Get(System.Int32)">
+            <summary>Sets the stub of ICommentRepository.Get(Int32 commentId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubICommentRepository.med::MyEvents#Data#ICommentRepository#GetAll(System.Int32)">
+            <summary>Sets the stub of ICommentRepository.GetAll(Int32 sessionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubICommentRepository.med::MyEvents#Data#ICommentRepository#GetOrganizerId(System.Int32)">
+            <summary>Sets the stub of ICommentRepository.GetOrganizerId(Int32 commentId)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.StubIEventDefinitionRepository">
+            <summary>Stub type of MyEvents.Data.IEventDefinitionRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.#ctor">
+            <summary>Initializes a new instance of type StubIEventDefinitionRepository</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.AddEventDefinition">
+            <summary>Sets the stub of IEventDefinitionRepository.Add(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.AddRoomPointsIEnumerableOfRoomPoint">
+            <summary>Sets the stub of IEventDefinitionRepository.AddRoomPoints(IEnumerable`1&lt;RoomPoint&gt; roomPoints)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.DeleteInt32">
+            <summary>Sets the stub of IEventDefinitionRepository.Delete(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.DeleteRoomPointsInt32Int32">
+            <summary>Sets the stub of IEventDefinitionRepository.DeleteRoomPoints(Int32 eventDefinitionId, Int32 roomNumber)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetAllInt32Int32">
+            <summary>Sets the stub of IEventDefinitionRepository.GetAll(Int32 pageSize, Int32 pageIndex)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetAllRoomPointsInt32">
+            <summary>Sets the stub of IEventDefinitionRepository.GetAllRoomPoints(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetAllWithUserInfoInt32Int32Int32">
+            <summary>Sets the stub of IEventDefinitionRepository.GetAllWithUserInfo(Int32 registeredUserId, Int32 pageSize, Int32 pageIndex)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetByIdInt32">
+            <summary>Sets the stub of IEventDefinitionRepository.GetById(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetByIdWithUserInfoInt32Int32">
+            <summary>Sets the stub of IEventDefinitionRepository.GetByIdWithUserInfo(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetByOrganizerIdInt32StringInt32Int32Boolean">
+            <summary>Sets the stub of IEventDefinitionRepository.GetByOrganizerId(Int32 organizerId, String filter, Int32 pageSize, Int32 pageIndex, Boolean completeInfo)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetCount">
+            <summary>Sets the stub of IEventDefinitionRepository.GetCount()</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetCountByOrganizerIdInt32String">
+            <summary>Sets the stub of IEventDefinitionRepository.GetCountByOrganizerId(Int32 organizerId, String filter)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetCurrent">
+            <summary>Sets the stub of IEventDefinitionRepository.GetCurrent()</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetEventLogoInt32">
+            <summary>Sets the stub of IEventDefinitionRepository.GetEventLogo(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetLastInt32">
+            <summary>Sets the stub of IEventDefinitionRepository.GetLast(Int32 number)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetLastWithUserInfoInt32Int32">
+            <summary>Sets the stub of IEventDefinitionRepository.GetLastWithUserInfo(Int32 registeredUserId, Int32 number)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetRoomImageInt32">
+            <summary>Sets the stub of IEventDefinitionRepository.GetRoomImage(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetRoomPointsInt32">
+            <summary>Sets the stub of IEventDefinitionRepository.GetRoomPoints(Int32 sessionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetTopSpeakersInt32">
+            <summary>Sets the stub of IEventDefinitionRepository.GetTopSpeakers(Int32 organizerId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.GetTopTagsInt32">
+            <summary>Sets the stub of IEventDefinitionRepository.GetTopTags(Int32 organizerId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#Add(MyEvents.Model.EventDefinition)">
+            <summary>Sets the stub of IEventDefinitionRepository.Add(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#AddRoomPoints(System.Collections.Generic.IEnumerable{MyEvents.Model.RoomPoint})">
+            <summary>Sets the stub of IEventDefinitionRepository.AddRoomPoints(IEnumerable`1&lt;RoomPoint&gt; roomPoints)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#Delete(System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.Delete(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#DeleteRoomPoints(System.Int32,System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.DeleteRoomPoints(Int32 eventDefinitionId, Int32 roomNumber)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetAll(System.Int32,System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetAll(Int32 pageSize, Int32 pageIndex)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetAllRoomPoints(System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetAllRoomPoints(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetAllWithUserInfo(System.Int32,System.Int32,System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetAllWithUserInfo(Int32 registeredUserId, Int32 pageSize, Int32 pageIndex)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetById(System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetById(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetByIdWithUserInfo(System.Int32,System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetByIdWithUserInfo(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetByOrganizerId(System.Int32,System.String,System.Int32,System.Int32,System.Boolean)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetByOrganizerId(Int32 organizerId, String filter, Int32 pageSize, Int32 pageIndex, Boolean completeInfo)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetCount">
+            <summary>Sets the stub of IEventDefinitionRepository.GetCount()</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetCountByOrganizerId(System.Int32,System.String)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetCountByOrganizerId(Int32 organizerId, String filter)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetCurrent">
+            <summary>Sets the stub of IEventDefinitionRepository.GetCurrent()</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetEventLogo(System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetEventLogo(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetLast(System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetLast(Int32 number)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetLastWithUserInfo(System.Int32,System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetLastWithUserInfo(Int32 registeredUserId, Int32 number)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetRoomImage(System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetRoomImage(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetRoomPoints(System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetRoomPoints(Int32 sessionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetTopSpeakers(System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetTopSpeakers(Int32 organizerId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#GetTopTags(System.Int32)">
+            <summary>Sets the stub of IEventDefinitionRepository.GetTopTags(Int32 organizerId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#Update(MyEvents.Model.EventDefinition)">
+            <summary>Sets the stub of IEventDefinitionRepository.Update(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIEventDefinitionRepository.med::MyEvents#Data#IEventDefinitionRepository#UpdateRoomImage(MyEvents.Model.EventDefinition)">
+            <summary>Sets the stub of IEventDefinitionRepository.UpdateRoomImage(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.UpdateEventDefinition">
+            <summary>Sets the stub of IEventDefinitionRepository.Update(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIEventDefinitionRepository.UpdateRoomImageEventDefinition">
+            <summary>Sets the stub of IEventDefinitionRepository.UpdateRoomImage(EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.StubIMaterialRepository">
+            <summary>Stub type of MyEvents.Data.IMaterialRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIMaterialRepository.#ctor">
+            <summary>Initializes a new instance of type StubIMaterialRepository</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIMaterialRepository.AddMaterial">
+            <summary>Sets the stub of IMaterialRepository.Add(Material material)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIMaterialRepository.DeleteInt32">
+            <summary>Sets the stub of IMaterialRepository.Delete(Int32 materialId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIMaterialRepository.GetAllInt32">
+            <summary>Sets the stub of IMaterialRepository.GetAll(Int32 sessionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIMaterialRepository.GetInt32">
+            <summary>Sets the stub of IMaterialRepository.Get(Int32 materialId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIMaterialRepository.GetOrganizerIdInt32">
+            <summary>Sets the stub of IMaterialRepository.GetOrganizerId(Int32 materialId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIMaterialRepository.med::MyEvents#Data#IMaterialRepository#Add(MyEvents.Model.Material)">
+            <summary>Sets the stub of IMaterialRepository.Add(Material material)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIMaterialRepository.med::MyEvents#Data#IMaterialRepository#Delete(System.Int32)">
+            <summary>Sets the stub of IMaterialRepository.Delete(Int32 materialId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIMaterialRepository.med::MyEvents#Data#IMaterialRepository#Get(System.Int32)">
+            <summary>Sets the stub of IMaterialRepository.Get(Int32 materialId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIMaterialRepository.med::MyEvents#Data#IMaterialRepository#GetAll(System.Int32)">
+            <summary>Sets the stub of IMaterialRepository.GetAll(Int32 sessionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIMaterialRepository.med::MyEvents#Data#IMaterialRepository#GetOrganizerId(System.Int32)">
+            <summary>Sets the stub of IMaterialRepository.GetOrganizerId(Int32 materialId)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.StubIRegisteredUserRepository">
+            <summary>Stub type of MyEvents.Data.IRegisteredUserRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.#ctor">
+            <summary>Initializes a new instance of type StubIRegisteredUserRepository</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIRegisteredUserRepository.AddRegisteredUser">
+            <summary>Sets the stub of IRegisteredUserRepository.Add(RegisteredUser registeredUser)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIRegisteredUserRepository.AddRegisteredUserScoreInt32Int32Double">
+            <summary>Sets the stub of IRegisteredUserRepository.AddRegisteredUserScore(Int32 registeredUserId, Int32 sessionId, Double score)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIRegisteredUserRepository.AddRegisteredUserToEventInt32Int32">
+            <summary>Sets the stub of IRegisteredUserRepository.AddRegisteredUserToEvent(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIRegisteredUserRepository.AddRegisteredUserToSessionInt32Int32">
+            <summary>Sets the stub of IRegisteredUserRepository.AddRegisteredUserToSession(Int32 registeredUserId, Int32 sessionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIRegisteredUserRepository.DeleteRegisteredUserFromEventInt32Int32">
+            <summary>Sets the stub of IRegisteredUserRepository.DeleteRegisteredUserFromEvent(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIRegisteredUserRepository.DeleteRegisteredUserFromSessionInt32Int32">
+            <summary>Sets the stub of IRegisteredUserRepository.DeleteRegisteredUserFromSession(Int32 registeredUserId, Int32 sessionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIRegisteredUserRepository.GetAllByEventIdInt32">
+            <summary>Sets the stub of IRegisteredUserRepository.GetAllByEventId(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIRegisteredUserRepository.GetAllBySessionIdInt32">
+            <summary>Sets the stub of IRegisteredUserRepository.GetAllBySessionId(Int32 sessionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIRegisteredUserRepository.GetByIdInt32">
+            <summary>Sets the stub of IRegisteredUserRepository.GetById(Int32 registeredUserId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIRegisteredUserRepository.GetEventDefinitionsInt32">
+            <summary>Sets the stub of IRegisteredUserRepository.GetEventDefinitions(Int32 registeredUserId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIRegisteredUserRepository.GetIfUserIsRegisteredInt32Int32">
+            <summary>Sets the stub of IRegisteredUserRepository.GetIfUserIsRegistered(Int32 eventDefinitionId, Int32 registeredUserId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIRegisteredUserRepository.GetSessionsInt32Int32">
+            <summary>Sets the stub of IRegisteredUserRepository.GetSessions(Int32 eventDefinitionId, Int32 registeredUserId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubIRegisteredUserRepository.GetString">
+            <summary>Sets the stub of IRegisteredUserRepository.Get(String facebookId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.med::MyEvents#Data#IRegisteredUserRepository#Add(MyEvents.Model.RegisteredUser)">
+            <summary>Sets the stub of IRegisteredUserRepository.Add(RegisteredUser registeredUser)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.med::MyEvents#Data#IRegisteredUserRepository#AddRegisteredUserScore(System.Int32,System.Int32,System.Double)">
+            <summary>Sets the stub of IRegisteredUserRepository.AddRegisteredUserScore(Int32 registeredUserId, Int32 sessionId, Double score)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.med::MyEvents#Data#IRegisteredUserRepository#AddRegisteredUserToEvent(System.Int32,System.Int32)">
+            <summary>Sets the stub of IRegisteredUserRepository.AddRegisteredUserToEvent(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.med::MyEvents#Data#IRegisteredUserRepository#AddRegisteredUserToSession(System.Int32,System.Int32)">
+            <summary>Sets the stub of IRegisteredUserRepository.AddRegisteredUserToSession(Int32 registeredUserId, Int32 sessionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.med::MyEvents#Data#IRegisteredUserRepository#DeleteRegisteredUserFromEvent(System.Int32,System.Int32)">
+            <summary>Sets the stub of IRegisteredUserRepository.DeleteRegisteredUserFromEvent(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.med::MyEvents#Data#IRegisteredUserRepository#DeleteRegisteredUserFromSession(System.Int32,System.Int32)">
+            <summary>Sets the stub of IRegisteredUserRepository.DeleteRegisteredUserFromSession(Int32 registeredUserId, Int32 sessionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.med::MyEvents#Data#IRegisteredUserRepository#Get(System.String)">
+            <summary>Sets the stub of IRegisteredUserRepository.Get(String facebookId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.med::MyEvents#Data#IRegisteredUserRepository#GetAllByEventId(System.Int32)">
+            <summary>Sets the stub of IRegisteredUserRepository.GetAllByEventId(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.med::MyEvents#Data#IRegisteredUserRepository#GetAllBySessionId(System.Int32)">
+            <summary>Sets the stub of IRegisteredUserRepository.GetAllBySessionId(Int32 sessionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.med::MyEvents#Data#IRegisteredUserRepository#GetById(System.Int32)">
+            <summary>Sets the stub of IRegisteredUserRepository.GetById(Int32 registeredUserId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.med::MyEvents#Data#IRegisteredUserRepository#GetEventDefinitions(System.Int32)">
+            <summary>Sets the stub of IRegisteredUserRepository.GetEventDefinitions(Int32 registeredUserId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.med::MyEvents#Data#IRegisteredUserRepository#GetIfUserIsRegistered(System.Int32,System.Int32)">
+            <summary>Sets the stub of IRegisteredUserRepository.GetIfUserIsRegistered(Int32 eventDefinitionId, Int32 registeredUserId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubIRegisteredUserRepository.med::MyEvents#Data#IRegisteredUserRepository#GetSessions(System.Int32,System.Int32)">
+            <summary>Sets the stub of IRegisteredUserRepository.GetSessions(Int32 eventDefinitionId, Int32 registeredUserId)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.StubISessionRepository">
+            <summary>Stub type of MyEvents.Data.ISessionRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubISessionRepository.#ctor">
+            <summary>Initializes a new instance of type StubISessionRepository</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubISessionRepository.AddSession">
+            <summary>Sets the stub of ISessionRepository.Add(Session session)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubISessionRepository.DeleteInt32">
+            <summary>Sets the stub of ISessionRepository.Delete(Int32 sessionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubISessionRepository.GetAllInt32">
+            <summary>Sets the stub of ISessionRepository.GetAll(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubISessionRepository.GetAllWithUserInfoInt32Int32">
+            <summary>Sets the stub of ISessionRepository.GetAllWithUserInfo(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubISessionRepository.GetInt32">
+            <summary>Sets the stub of ISessionRepository.Get(Int32 sessionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubISessionRepository.GetOrganizerIdInt32">
+            <summary>Sets the stub of ISessionRepository.GetOrganizerId(Int32 sessionId)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubISessionRepository.GetWithUserInfoInt32Int32">
+            <summary>Sets the stub of ISessionRepository.GetWithUserInfo(Int32 registeredUserId, Int32 sessionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubISessionRepository.med::MyEvents#Data#ISessionRepository#Add(MyEvents.Model.Session)">
+            <summary>Sets the stub of ISessionRepository.Add(Session session)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubISessionRepository.med::MyEvents#Data#ISessionRepository#Delete(System.Int32)">
+            <summary>Sets the stub of ISessionRepository.Delete(Int32 sessionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubISessionRepository.med::MyEvents#Data#ISessionRepository#Get(System.Int32)">
+            <summary>Sets the stub of ISessionRepository.Get(Int32 sessionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubISessionRepository.med::MyEvents#Data#ISessionRepository#GetAll(System.Int32)">
+            <summary>Sets the stub of ISessionRepository.GetAll(Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubISessionRepository.med::MyEvents#Data#ISessionRepository#GetAllWithUserInfo(System.Int32,System.Int32)">
+            <summary>Sets the stub of ISessionRepository.GetAllWithUserInfo(Int32 registeredUserId, Int32 eventDefinitionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubISessionRepository.med::MyEvents#Data#ISessionRepository#GetOrganizerId(System.Int32)">
+            <summary>Sets the stub of ISessionRepository.GetOrganizerId(Int32 sessionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubISessionRepository.med::MyEvents#Data#ISessionRepository#GetWithUserInfo(System.Int32,System.Int32)">
+            <summary>Sets the stub of ISessionRepository.GetWithUserInfo(Int32 registeredUserId, Int32 sessionId)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubISessionRepository.med::MyEvents#Data#ISessionRepository#Update(MyEvents.Model.Session)">
+            <summary>Sets the stub of ISessionRepository.Update(Session session)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubISessionRepository.UpdateSession">
+            <summary>Sets the stub of ISessionRepository.Update(Session session)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.StubMaterialRepository">
+            <summary>Stub type of MyEvents.Data.MaterialRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubMaterialRepository.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubMaterialRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubMaterialRepository</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubMaterialRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubMaterialRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubMaterialRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.StubMyEventsContext">
+            <summary>Stub type of MyEvents.Data.MyEventsContext</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubMyEventsContext.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubMyEventsContext.Dispose(System.Boolean)">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubMyEventsContext.DisposeBoolean">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubMyEventsContext.Equals(System.Object)">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubMyEventsContext.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubMyEventsContext.GetHashCode">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubMyEventsContext.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubMyEventsContext.InitializeStub">
+            <summary>Initializes a new instance of type StubMyEventsContext</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubMyEventsContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the stub of MyEventsContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubMyEventsContext.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of MyEventsContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubMyEventsContext.SaveChanges">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubMyEventsContext.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubMyEventsContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubMyEventsContext.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubMyEventsContext.ToString">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubMyEventsContext.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubMyEventsContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Fakes.StubMyEventsContext.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubMyEventsContext.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubMyEventsContext.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubMyEventsContext.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.StubRegisteredUserRepository">
+            <summary>Stub type of MyEvents.Data.RegisteredUserRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubRegisteredUserRepository.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubRegisteredUserRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubRegisteredUserRepository</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubRegisteredUserRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubRegisteredUserRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubRegisteredUserRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Fakes.StubSessionRepository">
+            <summary>Stub type of MyEvents.Data.SessionRepository</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubSessionRepository.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Fakes.StubSessionRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubSessionRepository</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubSessionRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubSessionRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Fakes.StubSessionRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimCommonInitializer">
+            <summary>Shim type of MyEvents.Data.Initializers.Events.CommonInitializer</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimCommonInitializer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimCommonInitializer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimCommonInitializer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimCommonInitializer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimCommonInitializer.GetOrganizerMyEventsContextString">
+            <summary>Sets the shim of CommonInitializer.GetOrganizer(MyEventsContext context, String name)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimCommonInitializer.GetRoomPointsInt32">
+            <summary>Sets the shim of CommonInitializer.GetRoomPoints(Int32 roomNumber)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimCommonInitializer.LoadFileString">
+            <summary>Sets the shim of CommonInitializer.LoadFile(String file)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimCommonInitializer.StaticConstructor">
+            <summary>Sets the shim of CommonInitializer.CommonInitializer()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData">
+            <summary>Shim type of MyEvents.Data.Initializers.Events.FacebookData</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.#ctor(MyEvents.Data.Initializers.Events.FacebookData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.BioGet">
+            <summary>Sets the shim of FacebookData.get_Bio()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.BioSetString">
+            <summary>Sets the shim of FacebookData.set_Bio(String value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.Constructor">
+            <summary>Sets the shim of FacebookData.FacebookData()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.FacebookIdGet">
+            <summary>Sets the shim of FacebookData.get_FacebookId()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.FacebookIdSetString">
+            <summary>Sets the shim of FacebookData.set_FacebookId(String value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.NameGet">
+            <summary>Sets the shim of FacebookData.get_Name()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.NameSetString">
+            <summary>Sets the shim of FacebookData.set_Name(String value)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.AllInstances.BioGet">
+            <summary>Sets the shim of FacebookData.get_Bio()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.AllInstances.BioSetString">
+            <summary>Sets the shim of FacebookData.set_Bio(String value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.AllInstances.FacebookIdGet">
+            <summary>Sets the shim of FacebookData.get_FacebookId()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.AllInstances.FacebookIdSetString">
+            <summary>Sets the shim of FacebookData.set_FacebookId(String value)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.AllInstances.NameGet">
+            <summary>Sets the shim of FacebookData.get_Name()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimFacebookData.AllInstances.NameSetString">
+            <summary>Sets the shim of FacebookData.set_Name(String value)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent">
+            <summary>Shim type of MyEvents.Data.Initializers.Events.VisualStudioAtlantaLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.#ctor(MyEvents.Data.Initializers.Events.VisualStudioAtlantaLaunchEvent)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.Constructor">
+            <summary>Sets the shim of VisualStudioAtlantaLaunchEvent.VisualStudioAtlantaLaunchEvent()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioAtlantaLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.GetMaterials">
+            <summary>Sets the shim of VisualStudioAtlantaLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.OrganizerGet">
+            <summary>Sets the shim of VisualStudioAtlantaLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.SessionsGet">
+            <summary>Sets the shim of VisualStudioAtlantaLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.AllInstances.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioAtlantaLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.AllInstances.GetMaterials">
+            <summary>Sets the shim of VisualStudioAtlantaLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.AllInstances.OrganizerGet">
+            <summary>Sets the shim of VisualStudioAtlantaLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioAtlantaLaunchEvent.AllInstances.SessionsGet">
+            <summary>Sets the shim of VisualStudioAtlantaLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent">
+            <summary>Shim type of MyEvents.Data.Initializers.Events.VisualStudioChinaLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.#ctor(MyEvents.Data.Initializers.Events.VisualStudioChinaLaunchEvent)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.Constructor">
+            <summary>Sets the shim of VisualStudioChinaLaunchEvent.VisualStudioChinaLaunchEvent()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioChinaLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.GetMaterials">
+            <summary>Sets the shim of VisualStudioChinaLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.OrganizerGet">
+            <summary>Sets the shim of VisualStudioChinaLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.SessionsGet">
+            <summary>Sets the shim of VisualStudioChinaLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.AllInstances.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioChinaLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.AllInstances.GetMaterials">
+            <summary>Sets the shim of VisualStudioChinaLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.AllInstances.OrganizerGet">
+            <summary>Sets the shim of VisualStudioChinaLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioChinaLaunchEvent.AllInstances.SessionsGet">
+            <summary>Sets the shim of VisualStudioChinaLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent">
+            <summary>Shim type of MyEvents.Data.Initializers.Events.VisualStudioGermanyLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.#ctor(MyEvents.Data.Initializers.Events.VisualStudioGermanyLaunchEvent)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.Constructor">
+            <summary>Sets the shim of VisualStudioGermanyLaunchEvent.VisualStudioGermanyLaunchEvent()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioGermanyLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.GetMaterials">
+            <summary>Sets the shim of VisualStudioGermanyLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.OrganizerGet">
+            <summary>Sets the shim of VisualStudioGermanyLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.SessionsGet">
+            <summary>Sets the shim of VisualStudioGermanyLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.AllInstances.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioGermanyLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.AllInstances.GetMaterials">
+            <summary>Sets the shim of VisualStudioGermanyLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.AllInstances.OrganizerGet">
+            <summary>Sets the shim of VisualStudioGermanyLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGermanyLaunchEvent.AllInstances.SessionsGet">
+            <summary>Sets the shim of VisualStudioGermanyLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent">
+            <summary>Shim type of MyEvents.Data.Initializers.Events.VisualStudioGlobalLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.#ctor(MyEvents.Data.Initializers.Events.VisualStudioGlobalLaunchEvent)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.Constructor">
+            <summary>Sets the shim of VisualStudioGlobalLaunchEvent.VisualStudioGlobalLaunchEvent()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioGlobalLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.GetMaterials">
+            <summary>Sets the shim of VisualStudioGlobalLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.OrganizerGet">
+            <summary>Sets the shim of VisualStudioGlobalLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.SessionsGet">
+            <summary>Sets the shim of VisualStudioGlobalLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.AllInstances.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioGlobalLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.AllInstances.GetMaterials">
+            <summary>Sets the shim of VisualStudioGlobalLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.AllInstances.OrganizerGet">
+            <summary>Sets the shim of VisualStudioGlobalLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioGlobalLaunchEvent.AllInstances.SessionsGet">
+            <summary>Sets the shim of VisualStudioGlobalLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent">
+            <summary>Shim type of MyEvents.Data.Initializers.Events.VisualStudioIndiaLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.#ctor(MyEvents.Data.Initializers.Events.VisualStudioIndiaLaunchEvent)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.Constructor">
+            <summary>Sets the shim of VisualStudioIndiaLaunchEvent.VisualStudioIndiaLaunchEvent()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioIndiaLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.GetMaterials">
+            <summary>Sets the shim of VisualStudioIndiaLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.OrganizerGet">
+            <summary>Sets the shim of VisualStudioIndiaLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.SessionsGet">
+            <summary>Sets the shim of VisualStudioIndiaLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.AllInstances.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioIndiaLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.AllInstances.GetMaterials">
+            <summary>Sets the shim of VisualStudioIndiaLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.AllInstances.OrganizerGet">
+            <summary>Sets the shim of VisualStudioIndiaLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioIndiaLaunchEvent.AllInstances.SessionsGet">
+            <summary>Sets the shim of VisualStudioIndiaLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent">
+            <summary>Shim type of MyEvents.Data.Initializers.Events.VisualStudioLondonLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.#ctor(MyEvents.Data.Initializers.Events.VisualStudioLondonLaunchEvent)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.Constructor">
+            <summary>Sets the shim of VisualStudioLondonLaunchEvent.VisualStudioLondonLaunchEvent()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioLondonLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.GetMaterials">
+            <summary>Sets the shim of VisualStudioLondonLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.OrganizerGet">
+            <summary>Sets the shim of VisualStudioLondonLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.SessionsGet">
+            <summary>Sets the shim of VisualStudioLondonLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.AllInstances.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioLondonLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.AllInstances.GetMaterials">
+            <summary>Sets the shim of VisualStudioLondonLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.AllInstances.OrganizerGet">
+            <summary>Sets the shim of VisualStudioLondonLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioLondonLaunchEvent.AllInstances.SessionsGet">
+            <summary>Sets the shim of VisualStudioLondonLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent">
+            <summary>Shim type of MyEvents.Data.Initializers.Events.VisualStudioMadridLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.#ctor(MyEvents.Data.Initializers.Events.VisualStudioMadridLaunchEvent)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.Constructor">
+            <summary>Sets the shim of VisualStudioMadridLaunchEvent.VisualStudioMadridLaunchEvent()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioMadridLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.GetMaterials">
+            <summary>Sets the shim of VisualStudioMadridLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.OrganizerGet">
+            <summary>Sets the shim of VisualStudioMadridLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.SessionsGet">
+            <summary>Sets the shim of VisualStudioMadridLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.AllInstances.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioMadridLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.AllInstances.GetMaterials">
+            <summary>Sets the shim of VisualStudioMadridLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.AllInstances.OrganizerGet">
+            <summary>Sets the shim of VisualStudioMadridLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMadridLaunchEvent.AllInstances.SessionsGet">
+            <summary>Sets the shim of VisualStudioMadridLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent">
+            <summary>Shim type of MyEvents.Data.Initializers.Events.VisualStudioMexicoLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.#ctor(MyEvents.Data.Initializers.Events.VisualStudioMexicoLaunchEvent)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.Constructor">
+            <summary>Sets the shim of VisualStudioMexicoLaunchEvent.VisualStudioMexicoLaunchEvent()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioMexicoLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.GetMaterials">
+            <summary>Sets the shim of VisualStudioMexicoLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.OrganizerGet">
+            <summary>Sets the shim of VisualStudioMexicoLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.SessionsGet">
+            <summary>Sets the shim of VisualStudioMexicoLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.AllInstances.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioMexicoLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.AllInstances.GetMaterials">
+            <summary>Sets the shim of VisualStudioMexicoLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.AllInstances.OrganizerGet">
+            <summary>Sets the shim of VisualStudioMexicoLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioMexicoLaunchEvent.AllInstances.SessionsGet">
+            <summary>Sets the shim of VisualStudioMexicoLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent">
+            <summary>Shim type of MyEvents.Data.Initializers.Events.VisualStudioSanFranciscoLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.#ctor(MyEvents.Data.Initializers.Events.VisualStudioSanFranciscoLaunchEvent)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.Constructor">
+            <summary>Sets the shim of VisualStudioSanFranciscoLaunchEvent.VisualStudioSanFranciscoLaunchEvent()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioSanFranciscoLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.GetMaterials">
+            <summary>Sets the shim of VisualStudioSanFranciscoLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.OrganizerGet">
+            <summary>Sets the shim of VisualStudioSanFranciscoLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.SessionsGet">
+            <summary>Sets the shim of VisualStudioSanFranciscoLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.AllInstances.CreateMyEventsContext">
+            <summary>Sets the shim of VisualStudioSanFranciscoLaunchEvent.Create(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.AllInstances.GetMaterials">
+            <summary>Sets the shim of VisualStudioSanFranciscoLaunchEvent.GetMaterials()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.AllInstances.OrganizerGet">
+            <summary>Sets the shim of VisualStudioSanFranciscoLaunchEvent.get_Organizer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.ShimVisualStudioSanFranciscoLaunchEvent.AllInstances.SessionsGet">
+            <summary>Sets the shim of VisualStudioSanFranciscoLaunchEvent.get_Sessions()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.StubFacebookData">
+            <summary>Stub type of MyEvents.Data.Initializers.Events.FacebookData</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubFacebookData.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubFacebookData.InitializeStub">
+            <summary>Initializes a new instance of type StubFacebookData</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubFacebookData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubFacebookData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubFacebookData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioAtlantaLaunchEvent">
+            <summary>Stub type of MyEvents.Data.Initializers.Events.VisualStudioAtlantaLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioAtlantaLaunchEvent.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioAtlantaLaunchEvent.InitializeStub">
+            <summary>Initializes a new instance of type StubVisualStudioAtlantaLaunchEvent</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioAtlantaLaunchEvent.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioAtlantaLaunchEvent.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioAtlantaLaunchEvent.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioChinaLaunchEvent">
+            <summary>Stub type of MyEvents.Data.Initializers.Events.VisualStudioChinaLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioChinaLaunchEvent.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioChinaLaunchEvent.InitializeStub">
+            <summary>Initializes a new instance of type StubVisualStudioChinaLaunchEvent</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioChinaLaunchEvent.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioChinaLaunchEvent.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioChinaLaunchEvent.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioGermanyLaunchEvent">
+            <summary>Stub type of MyEvents.Data.Initializers.Events.VisualStudioGermanyLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioGermanyLaunchEvent.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioGermanyLaunchEvent.InitializeStub">
+            <summary>Initializes a new instance of type StubVisualStudioGermanyLaunchEvent</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioGermanyLaunchEvent.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioGermanyLaunchEvent.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioGermanyLaunchEvent.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioGlobalLaunchEvent">
+            <summary>Stub type of MyEvents.Data.Initializers.Events.VisualStudioGlobalLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioGlobalLaunchEvent.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioGlobalLaunchEvent.InitializeStub">
+            <summary>Initializes a new instance of type StubVisualStudioGlobalLaunchEvent</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioGlobalLaunchEvent.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioGlobalLaunchEvent.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioGlobalLaunchEvent.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioIndiaLaunchEvent">
+            <summary>Stub type of MyEvents.Data.Initializers.Events.VisualStudioIndiaLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioIndiaLaunchEvent.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioIndiaLaunchEvent.InitializeStub">
+            <summary>Initializes a new instance of type StubVisualStudioIndiaLaunchEvent</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioIndiaLaunchEvent.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioIndiaLaunchEvent.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioIndiaLaunchEvent.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioLondonLaunchEvent">
+            <summary>Stub type of MyEvents.Data.Initializers.Events.VisualStudioLondonLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioLondonLaunchEvent.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioLondonLaunchEvent.InitializeStub">
+            <summary>Initializes a new instance of type StubVisualStudioLondonLaunchEvent</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioLondonLaunchEvent.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioLondonLaunchEvent.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioLondonLaunchEvent.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioMadridLaunchEvent">
+            <summary>Stub type of MyEvents.Data.Initializers.Events.VisualStudioMadridLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioMadridLaunchEvent.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioMadridLaunchEvent.InitializeStub">
+            <summary>Initializes a new instance of type StubVisualStudioMadridLaunchEvent</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioMadridLaunchEvent.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioMadridLaunchEvent.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioMadridLaunchEvent.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioMexicoLaunchEvent">
+            <summary>Stub type of MyEvents.Data.Initializers.Events.VisualStudioMexicoLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioMexicoLaunchEvent.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioMexicoLaunchEvent.InitializeStub">
+            <summary>Initializes a new instance of type StubVisualStudioMexicoLaunchEvent</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioMexicoLaunchEvent.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioMexicoLaunchEvent.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioMexicoLaunchEvent.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioSanFranciscoLaunchEvent">
+            <summary>Stub type of MyEvents.Data.Initializers.Events.VisualStudioSanFranciscoLaunchEvent</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioSanFranciscoLaunchEvent.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioSanFranciscoLaunchEvent.InitializeStub">
+            <summary>Initializes a new instance of type StubVisualStudioSanFranciscoLaunchEvent</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioSanFranciscoLaunchEvent.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioSanFranciscoLaunchEvent.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Events.Fakes.StubVisualStudioSanFranciscoLaunchEvent.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer">
+            <summary>Shim type of MyEvents.Data.Initializers.MyEventsContextInitializer</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.#ctor(MyEvents.Data.Initializers.MyEventsContextInitializer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.Bind(System.Data.Entity.IDatabaseInitializer{MyEvents.Data.MyEventsContext})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.AddAttendeeMyEventsContextEventDefinition">
+            <summary>Sets the shim of MyEventsContextInitializer.AddAttendee(MyEventsContext context, EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.AddCommentMyEventsContextInt32RegisteredUserInt32">
+            <summary>Sets the shim of MyEventsContextInitializer.AddComment(MyEventsContext context, Int32 sessionId, RegisteredUser registeredUser, Int32 minuteToAdd)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.AddMaterialMyEventsContextInt32">
+            <summary>Sets the shim of MyEventsContextInitializer.AddMaterial(MyEventsContext context, Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.AddRegisteredUserToSessionsMyEventsContextListOfRegisteredUserListOfInt32">
+            <summary>Sets the shim of MyEventsContextInitializer.AddRegisteredUserToSessions(MyEventsContext context, List`1&lt;RegisteredUser&gt; registeredUsers, List`1&lt;Int32&gt; sessionIds)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.Constructor">
+            <summary>Sets the shim of MyEventsContextInitializer.MyEventsContextInitializer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.GetCity">
+            <summary>Sets the shim of MyEventsContextInitializer.GetCity()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.GetComment">
+            <summary>Sets the shim of MyEventsContextInitializer.GetComment()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.GetDefaultImage">
+            <summary>Sets the shim of MyEventsContextInitializer.GetDefaultImage()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.GetFacebookData">
+            <summary>Sets the shim of MyEventsContextInitializer.GetFacebookData()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.GetFacebookId">
+            <summary>Sets the shim of MyEventsContextInitializer.GetFacebookId()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.GetFacebookUsername">
+            <summary>Sets the shim of MyEventsContextInitializer.GetFacebookUsername()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.GetNumberInt32Int32">
+            <summary>Sets the shim of MyEventsContextInitializer.GetNumber(Int32 min, Int32 max)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.GetRated">
+            <summary>Sets the shim of MyEventsContextInitializer.GetRated()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.InitializeAttendeesMyEventsContextListOfInt32">
+            <summary>Sets the shim of MyEventsContextInitializer.InitializeAttendees(MyEventsContext context, List`1&lt;Int32&gt; eventDefinitionIds)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.InitializeCommentsMyEventsContextListOfInt32ListOfRegisteredUserInt32">
+            <summary>Sets the shim of MyEventsContextInitializer.InitializeComments(MyEventsContext context, List`1&lt;Int32&gt; sessionIds, List`1&lt;RegisteredUser&gt; registeredUsers, Int32 count)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.InitializeDefaultUserMyEventsContext">
+            <summary>Sets the shim of MyEventsContextInitializer.InitializeDefaultUser(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.InitializeMaterialsMyEventsContextListOfInt32">
+            <summary>Sets the shim of MyEventsContextInitializer.InitializeMaterials(MyEventsContext context, List`1&lt;Int32&gt; sessionIds)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.SeedMyEventsContext">
+            <summary>Sets the shim of MyEventsContextInitializer.Seed(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.StaticConstructor">
+            <summary>Sets the shim of MyEventsContextInitializer.MyEventsContextInitializer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer._Seedb__0Type">
+            <summary>Sets the shim of MyEventsContextInitializer.&lt;Seed&gt;b__0(Type t)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextInitializer.AllInstances.SeedMyEventsContext">
+            <summary>Sets the shim of MyEventsContextInitializer.Seed(MyEventsContext context)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer">
+            <summary>Shim type of MyEvents.Data.Initializers.MyEventsContextRandomInitializer</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.#ctor(MyEvents.Data.Initializers.MyEventsContextRandomInitializer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.Bind(System.Data.Entity.IDatabaseInitializer{MyEvents.Data.MyEventsContext})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.AddAttendeeMyEventsContextEventDefinition">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.AddAttendee(MyEventsContext context, EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.AddCommentMyEventsContextInt32RegisteredUserInt32">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.AddComment(MyEventsContext context, Int32 sessionId, RegisteredUser registeredUser, Int32 minuteToAdd)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.AddEventMyEventsContextInt32">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.AddEvent(MyEventsContext context, Int32 index)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.AddMaterialMyEventsContextInt32">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.AddMaterial(MyEventsContext context, Int32 sessionId)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.AddOrganizerMyEventsContext">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.AddOrganizer(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.AddRegisteredUserToSessionsMyEventsContextListOfRegisteredUserListOfInt32">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.AddRegisteredUserToSessions(MyEventsContext context, List`1&lt;RegisteredUser&gt; registeredUsers, List`1&lt;Int32&gt; sessionIds)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.AddSessionMyEventsContextInt32Int32">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.AddSession(MyEventsContext context, Int32 eventDefinitionId, Int32 startingHour)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.Constructor">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.MyEventsContextRandomInitializer()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetCity">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetCity()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetComment">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetComment()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetDefaultImage">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetDefaultImage()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetDefaultMap">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetDefaultMap()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetEventDescription">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetEventDescription()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetEventMap">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetEventMap()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetEventNameInt32">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetEventName(Int32 valueIndex)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetEventTags">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetEventTags()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetFacebookId">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetFacebookId()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetFacebookUsername">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetFacebookUsername()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetLogoName">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetLogoName()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetName">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetName()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetNumberInt32Int32">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetNumber(Int32 min, Int32 max)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetOrganizerName">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetOrganizerName()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetRated">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetRated()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.GetSessionName">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.GetSessionName()</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.InitializeAttendeesMyEventsContextListOfInt32">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.InitializeAttendees(MyEventsContext context, List`1&lt;Int32&gt; eventDefinitionIds)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.InitializeCommentsMyEventsContextListOfInt32ListOfRegisteredUserInt32">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.InitializeComments(MyEventsContext context, List`1&lt;Int32&gt; sessionIds, List`1&lt;RegisteredUser&gt; registeredUsers, Int32 count)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.InitializeEventsMyEventsContextInt32">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.InitializeEvents(MyEventsContext context, Int32 count)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.InitializeMaterialsMyEventsContextListOfInt32">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.InitializeMaterials(MyEventsContext context, List`1&lt;Int32&gt; sessionIds)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.InitializeOrganizersMyEventsContextInt32">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.InitializeOrganizers(MyEventsContext context, Int32 count)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.InitializeRoomPointMyEventsContextEventDefinition">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.InitializeRoomPoint(MyEventsContext context, EventDefinition eventDefinition)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.InitializeSessionsMyEventsContextListOfInt32">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.InitializeSessions(MyEventsContext context, List`1&lt;Int32&gt; eventDefinitionIds)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.SeedMyEventsContext">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.Seed(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.StaticConstructor">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.MyEventsContextRandomInitializer()</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.ShimMyEventsContextRandomInitializer.AllInstances.SeedMyEventsContext">
+            <summary>Sets the shim of MyEventsContextRandomInitializer.Seed(MyEventsContext context)</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Fakes.StubMyEventsContextInitializer">
+            <summary>Stub type of MyEvents.Data.Initializers.MyEventsContextInitializer</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.StubMyEventsContextInitializer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.StubMyEventsContextInitializer.InitializeStub">
+            <summary>Initializes a new instance of type StubMyEventsContextInitializer</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.StubMyEventsContextInitializer.Seed(MyEvents.Data.MyEventsContext)">
+            <summary>Sets the stub of MyEventsContextInitializer.Seed(MyEventsContext context)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Initializers.Fakes.StubMyEventsContextInitializer.SeedMyEventsContext">
+            <summary>Sets the stub of MyEventsContextInitializer.Seed(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.StubMyEventsContextInitializer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.StubMyEventsContextInitializer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.StubMyEventsContextInitializer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyEvents.Data.Initializers.Fakes.StubMyEventsContextRandomInitializer">
+            <summary>Stub type of MyEvents.Data.Initializers.MyEventsContextRandomInitializer</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.StubMyEventsContextRandomInitializer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.StubMyEventsContextRandomInitializer.InitializeStub">
+            <summary>Initializes a new instance of type StubMyEventsContextRandomInitializer</summary>
+        </member>
+        <member name="M:MyEvents.Data.Initializers.Fakes.StubMyEventsContextRandomInitializer.Seed(MyEvents.Data.MyEventsContext)">
+            <summary>Sets the stub of MyEventsContextRandomInitializer.Seed(MyEventsContext context)</summary>
+        </member>
+        <member name="F:MyEvents.Data.Initializers.Fakes.StubMyEventsContextRandomInitializer.SeedMyEventsContext">
+            <summary>Sets the stub of MyEventsContextRandomInitializer.Seed(MyEventsContext context)</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.StubMyEventsContextRandomInitializer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.StubMyEventsContextRandomInitializer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyEvents.Data.Initializers.Fakes.StubMyEventsContextRandomInitializer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
